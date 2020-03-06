@@ -78,7 +78,7 @@ And finally, create a pull request so your ProGrad Mentor (PM) can review your w
 4. ***Return true if there are no offensive words.***
 
 ## Progression - 5
-1. ***The checkBlogTitle(Blog blog) should check if the blog title contains any offensive words.***
+1. ***The checkBlogDescription(Blog blog) should check if the blog description contains any offensive words.***
 2. ***Return true if there are no offensive words else false if it contains any offensive words.***
 3. ***You can use the array created in Progression - 3 to check if title contains any offensive words.***
 4. ***Return true if there are no offensive words.***
