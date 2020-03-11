@@ -21,7 +21,6 @@ public class BlogController extends HttpServlet {
 
     public BlogController() {
         super();
-        // TODO Auto-generated constructor stub
     }
 
 
@@ -48,9 +47,7 @@ public class BlogController extends HttpServlet {
 		blog.setBlogTitle(title);
 		blog.setBlogDescription(description);
 		blog.setDate(postedOn);
-		
-		//create object for CheckBlogPost
-		//store the return value in a boolean variable called checkblog
+
 		if(checkblog!=null) {
 			request.setAttribute("blog", blog);
 			request.setAttribute("user",user);
