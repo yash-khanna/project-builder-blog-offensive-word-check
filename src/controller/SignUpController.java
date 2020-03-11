@@ -33,10 +33,10 @@ public class SignUpController extends HttpServlet {
 
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		String email = request.getParameter("email"); //  get the email value from the jsp/html page
-		String password = request.getParameter("password"); //  get the password value from the jsp/html page
-		String confirmPassword = request.getParameter("confirmPassword"); //  get the confirm password value from the jsp/html page
-		LocalDateTime date= LocalDateTime.now(); // Java 8 Time API used to get system date and time at a particular instance
+		String email = request.getParameter("email"); 
+		String password = request.getParameter("password"); 
+		String confirmPassword = request.getParameter("confirmPassword");
+		LocalDateTime date= LocalDateTime.now(); 
 		System.out.println(email);
 		System.out.println(password);
 		System.out.println(confirmPassword);
