@@ -52,7 +52,7 @@ And finally, create a pull request so your ProGrad Mentor (PM) can review your w
 1. ***Output is a boolean value true or false.***
 
 ## Progression - 1 
-1. ***Day - 4 We will check if the blog title and description contains any offensive word or not.***
+1. ***We will check if the blog title and description contains any offensive word or not.***
 2. ***Your task is to make sure that the title and description does not contain any offensive words.***
 3. ***To achieve this, lets create a abstract class OffensiveWordsChecker.***
 4. ***Create an abstract method public abstract boolean checkBlog(Blog blog).***
@@ -84,8 +84,8 @@ And finally, create a pull request so your ProGrad Mentor (PM) can review your w
 4. ***Return true if there are no offensive words.***
 
 ## Progression - 6
-1. ***Create an object for CheckBlogPost in BlogController.***
-2. ***Call the CheckBlogPost with the object created and pass user as argument.***
+1. ***Create an object for checkBlog in BlogController.***
+2. ***Call the checkBlog with the object created and pass user as argument.***
 3. ***Store the value in a boolean variable checkblog.***
 
 
