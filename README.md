@@ -84,8 +84,8 @@ And finally, create a pull request so your ProGrad Mentor (PM) can review your w
 4. ***Return true if there are no offensive words.***
 
 ## Progression - 6
-1. ***Create an object for checkBlog in BlogController.***
-2. ***Call the checkBlog with the object created and pass user as argument.***
+1. ***Create an object for checkBlogPost in BlogController.***
+2. ***Call the checkBlog method with the object created and pass user as argument.***
 3. ***Store the value in a boolean variable checkblog.***
 
 
